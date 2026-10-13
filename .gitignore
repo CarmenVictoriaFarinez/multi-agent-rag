@@ -1,0 +1,57 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+
+# === Entorno virtual ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Variables de entorno ===
+.env
+.env.local
+.env.*.local
+
+# === IDEs y editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints/
+
+# === Datos y archivos grandes ===
+*.bin
+*.pt
+*.pth
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# === Logs ===
+*.log
+logs/
+
+# === Sistemas operativos ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Configuración local ===
+*.local
+config.local.yaml
+config.local.json
