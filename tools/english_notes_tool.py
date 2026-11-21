@@ -61,7 +61,7 @@ class EnglishNotesTool(Tool):
                 # Si encontramos algo, lo guardamos indicando el archivo
                 if matches:
                     results.append(
-                        f"📄 Archivo: {filename}\n" +
+                        f"Archivo: {filename}\n" +
                         "\n".join(matches)
                     )
 

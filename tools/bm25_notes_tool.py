@@ -74,13 +74,13 @@ class BM25NotesTool(Tool):
             if not matches:
                 fragment = "\n".join(lines[:5])  # primeras 5 líneas como contexto
                 results.append(
-                    f"📄 Archivo: {name}\n"
+                    f" Archivo: {name}\n"
                     f"(Sin coincidencias exactas, mostrando fragmento relevante)\n"
                     f"{fragment}\n"
                 )
             else:
                 results.append(
-                    f"📄 Archivo: {name}\n"
+                    f" Archivo: {name}\n"
                     f"Coincidencias encontradas:\n" +
                     "\n".join(f"- {m}" for m in matches) +
                     "\n"
